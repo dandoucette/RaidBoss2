@@ -1,0 +1,57 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Each player discards 1 card, mills 1 card, and sacrifices a creature, enchantment or artifact"
+    },
+    {
+        "dice": [2,3],
+        "bossEffect": "",
+        "text": "Each player sacrifices 1 legendary permanent and {x} creatures"
+    },
+    {
+        "dice": [4,5],
+        "bossEffect": "",
+        "text": "The Raid Monster deals 5 damage to every player and 3 to every planeswalker"
+    },
+    {
+        "dice": [6,7],
+        "bossEffect": "life,5,poison,-5",
+        "text": "The Raid Monster gains 5 life and removes 5 poison counters"
+    },
+    {
+        "dice": [8,9],
+        "bossEffect": "",
+        "text": "Until the beginning of the Monster’s next turn, players cannot draw more than 2 cards or play more than two spells each turn"
+    },
+    {
+        "dice": [10,11],
+        "bossEffect": "",
+        "text": "Each player sacrifices half the number of tokens they control. (Except for the raid monster)"
+    },
+    {
+        "dice": [12,13],
+        "bossEffect": "creatures,xp,x/x",
+        "text": "Place {xp} per player {x}/{x} flying defender creature tokens in front of the Raid Monster"
+    },
+    {
+        "dice": [14,15],
+        "bossEffect": "",
+        "text": " Each player sacrifices {x/2} enchantments"
+    },
+    {
+        "dice": [16,17],
+        "bossEffect": "",
+        "text": " Each player sacrifices {x/2} Artifacts"
+    },
+    {
+        "dice": [18,19],
+        "bossEffect": "life,amount",
+        "text": "Each player exiles half their graveyard and drain {x} life, raid monster gains {xp} life"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Each player may immediately draw a card, place a land from their hand into play, and gain 5 life"
+    }
+]

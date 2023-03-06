@@ -1,0 +1,57 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "All players discard 1 card and mill 1 card"
+    },
+    {
+        "dice": [2,3],
+        "bossEffect": "",
+        "text": "Naturalize: each player sacrifices an enchantment or artifact"
+    },
+    {
+        "dice": [4,5],
+        "bossEffect": "",
+        "text": "Lightning Bolt: each player chooses a target they control to receive 3 damage"
+    },
+    {
+        "dice": [6,7],
+        "bossEffect": "",
+        "text": "Dark Deal: all players discards all the cards in their hand and draws that many cards minus 1"
+    },
+    {
+        "dice": [8,9],
+        "bossEffect": "",
+        "text": "Desert Twister: each player sacrifices one permanent"
+    },
+    {
+        "dice": [10,11],
+        "bossEffect": "",
+        "text": "Fireball: all players take {x} damage"
+    },
+    {
+        "dice": [12,13],
+        "bossEffect": "life,5",
+        "text": "Stream of life: troll king gains 5 life"
+    },
+    {
+        "dice": [14,15],
+        "bossEffect": "creatures,x,0/3",
+        "text": "Wall of Vines: Troll King casts {x} Wall of Vines, they are 0/3 defenders with reach"
+    },
+    {
+        "dice": [16,17],
+        "bossEffect": "",
+        "text": "Return to Nature: each player must sacrifice an artifact, an enchantment, or exile a card from their graveyard"
+    },
+    {
+        "dice": [18,19],
+        "bossEffect": "",
+        "text": "Sign in Blood: each player draws 2 cards and loses 2 life"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Each player may draw a card and play an extra land and gain 5 life"
+    }
+]

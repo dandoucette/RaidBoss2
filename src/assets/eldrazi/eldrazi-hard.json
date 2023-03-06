@@ -1,0 +1,57 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Annihilator {x} and at the beginning of each player`s upkeep, that player chooses either draw step, main phase, or combat phase. The player skips each instance of the chosen step or phase this turn."
+    },
+    {
+        "dice": [2,3],
+        "bossEffect": "",
+        "text": "Each player sacrifices 1 legendary permanent and {x+1} creatures"
+    },
+    {
+        "dice": [4,5],
+        "bossEffect": "",
+        "text": "The Raid Monster deals 15 damage to every player and 5 to every planeswalker"
+    },
+    {
+        "dice": [6,7],
+        "bossEffect": "life,15,poison,-10",
+        "text": "The Raid Monster gains 15 life and removes all poison counters"
+    },
+    {
+        "dice": [8,9],
+        "bossEffect": "",
+        "text": "Until the beginning of the Monster`s next turn, players cannot draw more than 1 card or play more than one spell each turn"
+    },
+    {
+        "dice": [10,11],
+        "bossEffect": "",
+        "text": "Each player sacrifices all tokens they control and loses 1 life per token sacrificed. (Except for the raid monster)"
+    },
+    {
+        "dice": [12,13],
+        "bossEffect": "creatures,x+2,x/x",
+        "text": "Place {x+2} {x}/{x} flying defender creature tokens in front of the Raid Monster"
+    },
+    {
+        "dice": [14,15],
+        "bossEffect": "",
+        "text": " Each player sacrifices {x+1} enchantments"
+    },
+    {
+        "dice": [16,17],
+        "bossEffect": "",
+        "text": " Each player sacrifices {x+1} Artifacts"
+    },
+    {
+        "dice": [18,19],
+        "bossEffect": "life,amount",
+        "text": "Each player discards 2 cards, mills 2 cards, exiles their graveyard and drains {x+1} life, raid monster gains {amount*p} life"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "One player may immediately draw a card OR place a land from their hand into play OR gain 5 life."
+    }
+]

@@ -1,0 +1,20 @@
+<mat-card class="boss-card">
+    <mat-card-header>
+      <mat-card-title>
+        {{ bossName }} <img *ngFor="let colour of colours" src="../../../assets/{{colour}}.png" width="30" />
+        <!-- <img src="../../../assets/Green.png" width="30" /><img src="../../../assets/Red.png" width="30" /><img src="../../../assets/Black.png" width="30" /> -->
+      </mat-card-title>
+      <mat-card-subtitle>{{ bossSubtitle }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="imagePath" alt="Boss Image" height="300">
+    <mat-card-content style="height: 60px;">
+      <p>
+        {{ description }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button (click)="buttonClicked(bossId, 'easy')">Easy</button>
+      <button mat-button (click)="buttonClicked(bossId, 'medium')">Medium</button>
+      <button mat-button (click)="buttonClicked(bossId, 'hard')">Hard</button>
+    </mat-card-actions>
+  </mat-card>

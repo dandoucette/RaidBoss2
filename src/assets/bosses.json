@@ -1,0 +1,29 @@
+[
+    {
+        "id": "troll-king",
+        "name": "Troll King",
+        "subtitle": "I've never seen such a creature, it must be 50 feet tall",
+        "description": "Death, destruction, and healing. You will need to fight as a team to take down the Troll King",
+        "imagePath": "../../assets/troll-king/TrollKing.jpg",
+        "colours": ["Red", "Green", "Black"],
+        "hitPoints": [20, 25, 40]
+    },
+    {
+        "id": "eldrazi",
+        "name": "Eldrazi God",
+        "subtitle": "It fills the sky with despair",
+        "description": "Annihilation, total world destruction is imminent",
+        "imagePath": "../../assets/eldrazi/eldrazi.jpg",
+        "colours": ["colorless"],
+        "hitPoints": [20, 25, 50]
+    },
+    {
+        "id": "angel-of-death",
+        "name": "Angel of Death",
+        "subtitle": "He will reap your soul",
+        "description": "Lightness and darkness all in one",
+        "imagePath": "../../assets/angel-of-death/angel-of-death.jpg",
+        "colours": ["White", "Black"],
+        "hitPoints": [20, 30, 40]
+    }
+]

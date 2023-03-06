@@ -1,0 +1,57 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Despise: Each player discards a creature or planeswalker card from their hand"
+    },
+    {
+        "dice": [2,3],
+        "bossEffect": "",
+        "text": "Mire in Misery: Each player sacrifices a creature or enchantment"
+    },
+    {
+        "dice": [4,5],
+        "bossEffect": "",
+        "text": "Karma: Each player takes damage equal to the amount of swamps in play"
+    },
+    {
+        "dice": [6,7],
+        "bossEffect": "life,7",
+        "text": "Bargain: One player draws a card, Angel of Death gains 7 life"
+    },
+    {
+        "dice": [8,9],
+        "bossEffect": "life,3",
+        "text": "Agonizing Syphon: Deals 3 damage to each player or a target that player controls, Angel of Death gains 3 life."
+    },
+    {
+        "dice": [10,11],
+        "bossEffect": "creatures,2,2/2",
+        "text": "Allied Reinforcements: place two 2/2 white knight defender tokens in front of Angel of Death"
+    },
+    {
+        "dice": [12,13],
+        "bossEffect": "",
+        "text": "Arms of Hadar: Each player`s creatures get -2/-2 until end of turn"
+    },
+    {
+        "dice": [14,15],
+        "bossEffect": "",
+        "text": "Angelic Edict: Each player exiles a creature or enchantment"
+    },
+    {
+        "dice": [16,17],
+        "bossEffect": "",
+        "text": "Assassinate: Each player destroys a tapped creature they control"
+    },
+    {
+        "dice": [18,19],
+        "bossEffect": "",
+        "text": "Blinding Light: Tap all nonwhite creatures"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Ancient Craving: Each player draws 3 cards and loses 3 life"
+    }
+]

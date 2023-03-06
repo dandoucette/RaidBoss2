@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-2">Number of players</div>
+    <div class="col-1">
+        <input type="number" class="numeric" [(ngModel)]="numberOfPlayers" min="1" max="7" />
+    </div>
+    <div class="col-1">
+        <button (click)="startGameClick()" *ngIf="!gameStarted">Start Game</button>
+    </div>
+</div>
+<div *ngIf="gameStarted">
+    <div class="row margin-top-20">
+        <div class="col-3 header">
+            Turn {{ turnCounter }}
+        </div>
+        <div class="col-5 header">
+            {{ bossName }} Life: {{ bossHitPoints }} Poison: {{ bossPoison }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <hr />
+        </div>
+    </div>
+    <form [formGroup]="bossForm" (ngSubmit)="bossTurnClick()">
+    <div class="row">   
+        <div class="col-1">
+            <mat-form-field class="numeric">
+                <input type="number" placeholder="damage" matInput [formControlName]="controlNames.Damage" min="0" max="1000000" />
+            </mat-form-field>
+        </div>
+        <div class="col-1">
+            <mat-form-field class="numeric">
+                <input type="number" placeholder="poison" matInput [formControlName]="controlNames.Poison" min="0" max="100" />
+            </mat-form-field>
+        </div>
+        <div class="col-1">
+            <button type="submit" [disabled]="!playerTurn">Boss Turn</button>
+        </div>
+        <div class="col-1">
+            <button type="button" (click)="nextTurnClick()" [disabled]="playerTurn">Next Turn</button>
+        </div>
+        <div class="col-1" *ngFor="let defender of bossDefenders">
+            <button type="button" mat-icon-button color="warn" (click)="destroyDefender(defender.power)"
+                aria-label="defender" title="Defender, click to destroy">
+                <mat-icon>shield</mat-icon>
+            </button>
+            <div class="defender-size">{{defender.power}}/{{defender.toughness}}</div>
+        </div>
+    </div>
+    </form>
+    
+    <div class="ability-container">
+        <div class="row margin-top-10" *ngFor="let roll of diceRolls">
+            <div class="col-1 center die-value">{{ (roll.dieValue == 0 ? "" : roll.dieValue) }}</div>
+            <div class="col-10 ability-text">{{ roll.ability }}</div>
+        </div>
+    </div>
+</div>

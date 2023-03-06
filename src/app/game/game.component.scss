@@ -1,0 +1,37 @@
+.header {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.numeric {
+    width: 40px;
+}
+
+.ability-container {
+    margin-top: 25px;
+    border: solid 1px;
+    border-radius: 3px;
+    height: calc(100vh - 400px);
+    overflow: auto;
+}
+
+.die-value {
+    font-size: 1.5em;
+    color: maroon;
+    font-weight: bold;
+}
+
+.ability-text {
+    font-size: 1.2em;
+}
+
+.defender-size {
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1em;
+    color: maroon;
+    font-weight: bold;
+    margin-left: -44px;
+    margin-top: -15px;
+}

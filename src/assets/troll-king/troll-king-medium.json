@@ -1,0 +1,102 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "All players discard 1 card, mill 1 card, and sacrifice a creature, enchantment, or artifact"
+    },
+    {
+        "dice": [2],
+        "bossEffect": "",
+        "text": "Naturalize: each player sacrifices an enchantment or artifact"
+    },
+    {
+        "dice": [3],
+        "bossEffect": "",
+        "text": "Soul Shatter: each player sacrifices a creature or planeswalker with the highest converted manage cost among creatures and planewalkers they control"
+    },
+    {
+        "dice": [4],
+        "bossEffect": "",
+        "text": "Lightning Bolt: each player chooses a target they control to receive 3 damage"
+    },
+    {
+        "dice": [5],
+        "bossEffect": "",
+        "text": "Hurricane: all flying creatures controlled by players and players receive {x} damage"
+    },
+    {
+        "dice": [6],
+        "bossEffect": "",
+        "text": "Black Sun Zenith: All players put {x} -1/-1 counters on creatures they control"
+    },
+    {
+        "dice": [7],
+        "bossEffect": "",
+        "text": "Earthquake: all non-flying creatures controlled by players and players receive {x} damage"
+    },
+    {
+        "dice": [8],
+        "bossEffect": "",
+        "text": "Dark Deal: all players discards all the cards in their hand and draws that many cards minus 1"
+    },
+    {
+        "dice": [9],
+        "bossEffect": "",
+        "text": "Desert Twister: each player sacrifices one permanent"
+    },
+    {
+        "dice": [10],
+        "bossEffect": "",
+        "text": "Fireball: all players take {x*3} damage"
+    },
+    {
+        "dice": [11],
+        "bossEffect": "life,amount",
+        "text": "Exsanguinate: all players lose {x} life and troll king gains {xp} life"
+    },
+    {
+        "dice": [12],
+        "bossEffect": "life,amount",
+        "text": "Stream of life: troll king gains {x*2} life"
+    },
+    {
+        "dice": [13],
+        "bossEffect": "creatures,x,3/3",
+        "text": "Cinder Wall: Troll King casts {x} Cinder walls, they are 3/3 defenders that are destroyed at the end of combat if they block"
+    },
+    {
+        "dice": [14],
+        "bossEffect": "",
+        "text": "Wrench Mind: each player discards two cards unless they discard an artifact card"
+    },
+    {
+        "dice": [15],
+        "bossEffect": "",
+        "text": "Hellspark Elemental: Troll King casts a Hellspark Elemental for each player and attacks. Hellspark Elemental is a 3/1 creature with trample that dies at end of combat."
+    },
+    {
+        "dice": [16],
+        "bossEffect": "",
+        "text": "Return to Nature: each player must sacrifice an artifact, an enchantment, or exile a card from their graveyard"
+    },
+    {
+        "dice": [17],
+        "bossEffect": "",
+        "text": "Sign in Blood: each player draws 2 cards and loses 2 life"
+    },
+    {
+        "dice": [18],
+        "bossEffect": "",
+        "text": "Pyroclasm: deal 2 damage to each creature."
+    },
+    {
+        "dice": [19],
+        "bossEffect": "",
+        "text": "Fog: creatures deal no combat damage next turn."
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Each player may draw a card OR play an extra land OR gain 5 life"
+    }
+]

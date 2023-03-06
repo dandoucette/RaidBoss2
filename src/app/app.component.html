@@ -1,0 +1,26 @@
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+    <img
+      height="60"
+      alt="Magic: The Gathering Logo"
+      src="assets/mtg-logo.jpg"
+    />
+    
+    <span class="spacer"></span>
+    <span style="font-size: 2em; font-weight: bold;">Raid Boss</span>
+    
+    <span class="spacer"></span>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="'/'">New Game</button>
+    </mat-menu>
+</div>
+<div class="container" style="margin-top: 90px;">
+  <router-outlet></router-outlet>
+</div>
+ 
+
