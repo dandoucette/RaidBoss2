@@ -2,26 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
-## Development server
+This project allows me to play the raid boss abilities in a PvE format for Magic the Gathering.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Here's the YouTube video explaining how it works: https://www.youtube.com/watch?v=wj7YcAIiNF0
+The original Document from the creator: https://docs.google.com/document/d/12ArhzyujVAn7xUrjhRxawKksBTNQeQD8snJiVTp24zc/edit
+And the discord: https://discord.com/invite/ZgTBd522QM
 
-## Code scaffolding
+## TODO
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Add functionality to manually adjust boss life/poison in case it is needed.
+* Add functionality to upload a new boss using JSON files and images
