@@ -1,0 +1,32 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Grapeshot: deals 1 damage to any target, copy for each spell during boss' turn. Repeat."
+    },
+    {
+        "dice": [2,5,9,13,17],
+        "bossEffect": "",
+        "text": "Lightning Bolt: Each player deals 3 damage to a target. Repeat {x} time(s)."
+    },
+    {
+        "dice": [3,8,12,14,18],
+        "bossEffect": "life,3",
+        "text": "Healing Salve: Boss gains 3 life"
+    },
+    {
+        "dice": [4,7,11,15,19],
+        "bossEffect": "life,7",
+        "text": "Angel's Mercy: Boss gains 7 life"
+    },
+    {
+        "dice": [6,10,16],
+        "bossEffect": "creatures,x,3/5",
+        "text": "Wall of Swords: Boss summons {x} 3/5 defender(s) with flying"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Cut a Deal: Each player draws a card."
+    }
+]

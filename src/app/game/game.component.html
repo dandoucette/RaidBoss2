@@ -9,11 +9,17 @@
 </div>
 <div *ngIf="gameStarted">
     <div class="row margin-top-20">
-        <div class="col-3 header">
+        <div class="col-2 header">
             Turn {{ turnCounter }}
         </div>
-        <div class="col-5 header">
-            {{ bossName }} Life: {{ bossHitPoints }} Poison: {{ bossPoison }}
+        <div class="col-4 header">
+            {{ bossName }} Life<input type="number" [(ngModel)]="bossHitPoints" style="width: 70px; display: inline;" /> 
+        </div>
+        <div class="col-3 header">
+            Poison<input type="number" [(ngModel)]="bossPoison" style="width: 60px; display: inline;" />
+        </div>
+        <div class="col-3 header">
+            Cards<input type="number" [(ngModel)]="bossCardsRemaining" style="width: 70px; display: inline;" />
         </div>
     </div>
     <div class="row">
@@ -31,6 +37,11 @@
         <div class="col-1">
             <mat-form-field class="numeric">
                 <input type="number" placeholder="poison" matInput [formControlName]="controlNames.Poison" min="0" max="100" />
+            </mat-form-field>
+        </div>
+        <div class="col-1">
+            <mat-form-field class="numeric">
+                <input type="number" placeholder="cards milled" matInput [formControlName]="controlNames.CardsMilled" min="0" max="100" />
             </mat-form-field>
         </div>
         <div class="col-1">

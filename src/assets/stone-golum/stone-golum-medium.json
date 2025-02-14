@@ -1,0 +1,57 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Altar of Dementia: Each player sacrifices a creature and mills X cards where X is that creature's power"
+    },
+    {
+        "dice": [2,3],
+        "bossEffect": "life,15",
+        "text": "Stone Golum heals for 15 life"
+    },
+    {
+        "dice": [4,5],
+        "bossEffect": "",
+        "text": "Grindstone: Each player mills 2 cards, if both cards are the same colour, repeat the process"
+    },
+    {
+        "dice": [6,7],
+        "bossEffect": "life,10,poison,-10",
+        "text": "The Raid Monster gains 10 life and removes 10 poison counters"
+    },
+    {
+        "dice": [8,9],
+        "bossEffect": "",
+        "text": "Sands of Delirium: Each player mills {x*2} cards"
+    },
+    {
+        "dice": [10,11],
+        "bossEffect": "",
+        "text": "Shriekhorn: Each player mills 2 cards"
+    },
+    {
+        "dice": [12,13],
+        "bossEffect": "creatures,xp,0/2",
+        "text": "Place {xp} 0/2 Ornithopters (flying) creature tokens in front of the Raid Monster"
+    },
+    {
+        "dice": [14,15],
+        "bossEffect": "",
+        "text": "Grinding Station: Each player mills 3 cards"
+    },
+    {
+        "dice": [16,17],
+        "bossEffect": "",
+        "text": "Tormod's Crypt: Exile each player's graveyard"
+    },
+    {
+        "dice": [18,19],
+        "bossEffect": "",
+        "text": "Rocket Launcher: Each player takes {x*2} damage"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Wheel of Fortune: Each player discards their hand and draws 7 cards"
+    }
+]

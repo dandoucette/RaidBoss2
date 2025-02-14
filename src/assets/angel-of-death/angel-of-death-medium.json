@@ -1,0 +1,102 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "creatures,12,2/2",
+        "text": "Army of the Damned: Create thirteen 2/2 black zombie creature tokens with defender"
+    },
+    {
+        "dice": [2],
+        "bossEffect": "",
+        "text": "Oust: each player chooses a creature they control and puts into the owner's library second from the top and then gains 3 life"
+    },
+    {
+        "dice": [3],
+        "bossEffect": "",
+        "text": "Soul Shatter: Each player sacrifices a creature or planewalker with the highest converted mana cost amoung creatures and planeswalkers they control"
+    },
+    {
+        "dice": [4],
+        "bossEffect": "",
+        "text": "Dust to Dust: each player removes 2 artifacts they control from the game"
+    },
+    {
+        "dice": [5],
+        "bossEffect": "",
+        "text": "Ad Nauseam: Each player reveals the top card of their library and puts that card into their hand. They lose live equal to the converted mana cost. All players may repeat this process any number of times"
+    },
+    {
+        "dice": [6],
+        "bossEffect": "creatures,x,2/2",
+        "text": "White Sun Zenith: put {x} 2/2 cat creature tokens onto the battlefield, they have defender"
+    },
+    {
+        "dice": [7],
+        "bossEffect": "",
+        "text": "Aether Snap: Remove all counters from all permanents and exile all tokens controlled by players"
+    },
+    {
+        "dice": [8],
+        "bossEffect": "",
+        "text": "Karma: Each player takes damage equal to the amount of swamps in play"
+    },
+    {
+        "dice": [9],
+        "bossEffect": "",
+        "text": "Atrocious Experiment: Each player mills two cards, draws two cards, and loses 2 life"
+    },
+    {
+        "dice": [10],
+        "bossEffect": "",
+        "text": "Humility: All creatures lose all abilities and have a base power and thoughness of 1/1 until next turn"
+    },
+    {
+        "dice": [11],
+        "bossEffect": "",
+        "text": "Barter in Blood: Each player sacrifices two creatures"
+    },
+    {
+        "dice": [12],
+        "bossEffect": "life,amount",
+        "text": "Bargain: All players draw a card, Angel of Death gains {7*p} life"
+    },
+    {
+        "dice": [13],
+        "bossEffect": "",
+        "text": "Caustic Rain: Each player exiles a land they control"
+    },
+    {
+        "dice": [14],
+        "bossEffect": "",
+        "text": "Swords to Plowshares: each player exiles {x} creature(s) they control and gains life equal to its/their power"
+    },
+    {
+        "dice": [15],
+        "bossEffect": "life,amount",
+        "text": "Exsanguinate: all players lose {x} life and troll king gains {xp} life"
+    },
+    {
+        "dice": [16],
+        "bossEffect": "creatures,x/2,4/4",
+        "text": "Entreat the Angels: Create {x/2} white Angel creature tokens with flying, they have defender"
+    },
+    {
+        "dice": [17],
+        "bossEffect": "",
+        "text": "Dark Deal: Each player discards all the cards in their hand, then draws that many cards minus one"
+    },
+    {
+        "dice": [18],
+        "bossEffect": "",
+        "text": "Disenchant: Destroy target artifact or enchantment from each player"
+    },
+    {
+        "dice": [19],
+        "bossEffect": "",
+        "text": "Davriel's Shadowfugue: Each player discards two cards and loses 2 life"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Sign in Blood: each player draws 2 cards and loses 2 life"
+    }
+]

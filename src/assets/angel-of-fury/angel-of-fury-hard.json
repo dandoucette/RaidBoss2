@@ -1,0 +1,32 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Grapeshot: deals 1 damage to any target, copy for each spell during boss' turn. Repeat {x} time(s)."
+    },
+    {
+        "dice": [2,5,9,13,17],
+        "bossEffect": "life,amount",
+        "text": "Lightning Helix: each player deals {3} damage to any target. Boss gains {amount*p} life."
+    },
+    {
+        "dice": [3,8,12,14,18],
+        "bossEffect": "life,7",
+        "text": "Angel's Mercy: Boss gains 7 life"
+    },
+    {
+        "dice": [4,7,11,15,19],
+        "bossEffect": "life,amount",
+        "text": "Alabaster Portion: Boss gains {x*2} life."
+    },
+    {
+        "dice": [6,10,16],
+        "bossEffect": "creatures,xp,3/5",
+        "text": "Wall of Swords: Boss summons {xp} 3/5 defender(s) with flying"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "life,7",
+        "text": "Bargain: Boss gets 7 life, each player draws a card."
+    }
+]

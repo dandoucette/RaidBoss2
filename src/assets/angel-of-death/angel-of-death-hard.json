@@ -1,0 +1,102 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Death Cloud: Each player loses {x} life, discards {x} cards, sacrifices {x} creatures, then sacrifices {x} land"
+    },
+    {
+        "dice": [2],
+        "bossEffect": "",
+        "text": "Balance: Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way"
+    },
+    {
+        "dice": [3],
+        "bossEffect": "",
+        "text": "Delirium Skeins: Each player discards three cards"
+    },
+    {
+        "dice": [4],
+        "bossEffect": "life,amount",
+        "text": "Bargain: All players draw a card, Angel of Death gains {7*p} life"
+    },
+    {
+        "dice": [5],
+        "bossEffect": "",
+        "text": "Demonic Bargain: Each player exiles the top thirteen cards from their library, then searches their library for a card. Each player puts their chosen card into their hand and shuffles their library"
+    },
+    {
+        "dice": [6],
+        "bossEffect": "life,20",
+        "text": "Blessed Wind: Angel of Death gains 20 life"
+    },
+    {
+        "dice": [7],
+        "bossEffect": "creatures,13,2/2",
+        "text": "Army of the Damned: Create thirteen 2/2 black zombie creature tokens with defender"
+    },
+    {
+        "dice": [8],
+        "bossEffect": "",
+        "text": "By Invitation Only: Choose a number between 0 and 13: {r,0,13}. Each player sacrifices that many creatures"
+    },
+    {
+        "dice": [9],
+        "bossEffect": "",
+        "text": "Hymn to Tourach: Each player discards two cards at random"
+    },
+    {
+        "dice": [10],
+        "bossEffect": "",
+        "text": "Buy Your Silence: Each player exiles {x} nonland permanents. It's controller creates a Treasure token for each permanent exiled this way."
+    },
+    {
+        "dice": [11],
+        "bossEffect": "",
+        "text": "Black Sun Zenith: Put {x} -1/-1 counters on each creature players control."
+    },
+    {
+        "dice": [12],
+        "bossEffect": "life,5",
+        "text": "Chaplain's Blessing: Angel of Death gains 5 life"
+    },
+    {
+        "dice": [13],
+        "bossEffect": "",
+        "text": "Cruel Bargain: Each player draws four cards and loses half their life, rounded up"
+    },
+    {
+        "dice": [14],
+        "bossEffect": "",
+        "text": "Cleansing: For each land, destroy that land unless any player pays 1 life"
+    },
+    {
+        "dice": [15],
+        "bossEffect": "life,amount",
+        "text": "Exsanguinate+: all players lose {x*2} life and troll king gains {amount*p} life"
+    },
+    {
+        "dice": [16],
+        "bossEffect": "",
+        "text": "Dimensional Breach: Exile all permanents. For as long as those cards remain exiled, at the beginning of each player's upkeep, that player returns one of the exiled cards they own to the battlefield"
+    },
+    {
+        "dice": [17],
+        "bossEffect": "",
+        "text": "Dakmor Plague: Deal 3 damage to each creature and each player"
+    },
+    {
+        "dice": [18],
+        "bossEffect": "",
+        "text": "Divine light: Prevent all damage that would be dealt to creatures controlled by Angel of Death until next turn"
+    },
+    {
+        "dice": [19],
+        "bossEffect": "",
+        "text": "Mind Twist: Each player discards {x} cards"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Each player gains 2 life for each card in their graveyard"
+    }
+]

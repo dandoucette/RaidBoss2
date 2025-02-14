@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/raidboss",
+    "public": "dist/raid-boss",
     "ignore": [
       "firebase.json",
       "**/.*",

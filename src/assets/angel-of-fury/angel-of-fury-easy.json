@@ -1,0 +1,32 @@
+[
+    { 
+        "dice": [1],
+        "bossEffect": "",
+        "text": "Grapeshot: deals 1 damage to any target, copy for each spell during boss' turn."
+    },
+    {
+        "dice": [2,5,9,13,17],
+        "bossEffect": "",
+        "text": "Shock: deals 2 damage to any target"
+    },
+    {
+        "dice": [3,8,12,14,18],
+        "bossEffect": "life,3",
+        "text": "Healing Salve: Boss gains 3 life"
+    },
+    {
+        "dice": [4,7,11,15,19],
+        "bossEffect": "life,1",
+        "text": "Heal: Boss gains 1 life"
+    },
+    {
+        "dice": [6,10,16],
+        "bossEffect": "creatures,1,3/5",
+        "text": "Wall of Swords: 3/5 defender with flying"
+    },
+    {
+        "dice": [20],
+        "bossEffect": "",
+        "text": "Pursuite of Knowledge: Each player draws seven cards"
+    }
+]

@@ -24,6 +24,24 @@
         "description": "Lightness and darkness all in one",
         "imagePath": "../../assets/angel-of-death/angel-of-death.jpg",
         "colours": ["White", "Black"],
-        "hitPoints": [20, 30, 40]
+        "hitPoints": [20, 30, 50]
+    },
+    {
+        "id": "stone-golum",
+        "name": "Stone Golum",
+        "subtitle": "High HP and healing",
+        "description": "A classic tank and spank, deal as much damage as possible or you will die",
+        "imagePath": "../../assets/stone-golum/stone-golum.jpg",
+        "colours": ["colorless"],
+        "hitPoints": [75, 100, 200]
+    },
+    {
+        "id": "angel-of-fury",
+        "name": "Angel of Fury",
+        "subtitle": "High HP, healing, strong defense",
+        "description": "Burn this angel before it gets you",
+        "imagePath": "../../assets/angel-of-fury/AngelOfFury.jpg",
+        "colours": ["White", "Red"],
+        "hitPoints": [50, 100, 200]
     }
 ]
